@@ -1,0 +1,102 @@
+{
+    "$schema": "https://github.com/TheGiddyLimit/homebrew/blob/8b4db69c1e33a8652c1e15323fdf1fc67ba06f15/schema.json",
+    "_meta": {
+        "sources": [
+            {
+                "json": "Detarame:ProteststandWiki",
+                "abbreviation": "D:PsW",
+                "full": "Proteststand Wiki",
+                "authors": [
+                    "Detarame et al"
+                ],
+                "url": "https://wiki.proteststand.com",
+                "version": "2019.07.13"
+            }
+        ],
+        "dateAdded": 1593801521,
+        "dateLastModified": 1593801521
+    },
+    "subrace": [
+        {
+            "race": {
+                "name": "Elf",
+                "source": "PHB"
+            },
+            "name": "Sidhe (int)",
+            "source": "D:PsW",
+            "ability": [
+                {
+                    "int": 1
+                }
+            ],
+            "page": null,
+            "entries": [
+                {
+                    "name": "Elf Weapon Training",
+                    "entries": [
+                        "You have proficiency with the @{item longsword|phb}, @{item shortsword|phb}, @{item shortbow|phb}, and @{item longbow|phb}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Wellspring of Vitality",
+                    "entries": [
+                        "You are proficient in saving throws against death. One per short rest, you may remove one death-save failure as a bonus action."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "traitTags": [
+                "Weapon Proficiency",
+                "Rare"
+            ],
+            "fluff": {
+                "entries": [
+                    "Living mostly in seclusion for centuries, the Sidhe have kept an insular community on their island home of Sidhe Praxen.",
+                    "Their culture is characterized largely by xenophobia, and reactionary atavism, and they rarely interact with the rest of the known world except through the Petarans, with whom they maintain a trade monopoly.",
+                    "While rarely seen on the Mainland, the occasional exile ekes out a living on the margins, spending much of their energy keeping their ancestry hidden for fear of reprisal from superstition or over-caution."
+                ]
+            }
+        }, {
+            "race": {
+                "name": "Elf",
+                "source": "PHB"
+            },
+            "name": "Sidhe (wis)",
+            "source": "D:PsW",
+            "ability": [
+                {
+                    "wis": 1
+                }
+            ],
+            "page": null,
+            "entries": [
+                {
+                    "name": "Elf Weapon Training",
+                    "entries": [
+                        "You have proficiency with the @{item longsword|phb}, @{item shortsword|phb}, @{item shortbow|phb}, and @{item longbow|phb}."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Wellspring of Vitality",
+                    "entries": [
+                        "You are proficient in saving throws against death. One per short rest, you may remove one death-save failure as a bonus action."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "traitTags": [
+                "Weapon Proficiency",
+                "Rare"
+            ],
+            "fluff": {
+                "entries": [
+                    "Living mostly in seclusion for centuries, the Sidhe have kept an insular community on their island home of Sidhe Praxen.",
+                    "Their culture is characterized largely by xenophobia, and reactionary atavism, and they rarely interact with the rest of the known world except through the Petarans, with whom they maintain a trade monopoly.",
+                    "While rarely seen on the Mainland, the occasional exile ekes out a living on the margins, spending much of their energy keeping their ancestry hidden for fear of reprisal from superstition or over-caution."
+                ]
+            }
+        }
+    ]
+}
