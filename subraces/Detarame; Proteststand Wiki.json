@@ -3,12 +3,15 @@
     "_meta": {
         "sources": [
             {
-                "json": "Detarame:ProteststandWiki",
-                "abbreviation": "D:PsW",
+                "json": "ProteststandWiki",
+                "abbreviation": "PsW",
                 "full": "Proteststand Wiki",
                 "authors": [
                     "Detarame et al"
                 ],
+                "convertedBy": [
+                    "slitherrr"
+		]
                 "url": "https://wiki.proteststand.com",
                 "version": "2019.07.13"
             }
