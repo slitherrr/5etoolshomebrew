@@ -130,9 +130,8 @@
             }
         }
     ],
-    "race":
-        [
-            {
+    "race": [
+        {
             "name": "Gnome (Hakani)",
             "source": "ProteststandWiki",
             "page": null,
@@ -153,6 +152,123 @@
             "traitTags": [
                 "Uncommon Race",
                 "Tool Proficiency"
+            ],
+            "languageProficiencies": [
+                {
+                    "ubrekti": true,
+                    "gnomish": true
+                }
+            ],
+            "entries": [
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years."
+                    ]
+                },
+                {
+                    "name": "Alignment",
+                    "type": "entries",
+                    "entries": [
+                        "Gnomes are fans of self-determination and collective decision-making, and eschew hierarchies, so they tend more to chaos than law. They are inquisitive and resourceful, and historically have produced some of the world's preeminent scholars (and, behind the scenes, assassins)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Gnome Cunning",
+                    "entries": [
+                        "You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Ubrekti and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Artificer's Lore",
+                    "entries": [
+                        "Whenever you make an Intelligence ({@skill History}) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Tinker",
+                    "entries": [
+                        "You have proficiency with artisan's tools ({@item tinker's tools|phb}). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+                        "When you create a device, choose one of the following options:",
+                        {
+                            "type": "entries",
+                            "name": "Clockwork Toy",
+                            "entries": [
+                                "This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Fire Starter",
+                            "entries": [
+                                "The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Music Box",
+                            "entries": [
+                                "When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+                            ]
+                        }
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "fluff": {
+                "entries": [
+                    "Gnomes are clannish, insular people. Perhaps it was not always this way, but historical circumstance has thrust that role upon them, and a discussion of Gnomish life and culture cannot be discussed without a discussion of their history. To a Gnome, history is culture. Since being originally displaced and enslaved from Old Hakan during the days of the First Empire, Gnomes tended to be artisans and skilled workers. When they entered into the Gnomish Vassalage, they were nominally freed, but were actually force-integrated into Dwarven society. In order to cling to their heritage, they became fastidious keepers of history and jealously guarded those innovations they brought with them from their days of technical servitude. The restoration of their homeland during Alexandria's Crusade infused them with a cultural pride, but has also galvanized them toward radicalism.",
+                    "Gnomes have spent the most time creating very technical products, art and culture, although their wizardry paradoxically is much more spiritual than average. They comprise either all, or nearly all, the psionic talents in the world.",
+                    "Gnomes live primarily in Gildenhome and Hakan"
+                ]
+            }
+        },
+        {
+            "name": "Gnome (Wild)",
+            "source": "ProteststandWiki",
+            "page": null,
+            "size": "S",
+            "speed": 25,
+            "ability": [
+                {
+                    "con": 1,
+                    "dex": 1,
+                    "wis": 1
+                }
+            ],
+            "heightAndWeight": {
+                "baseHeight": 35,
+                "heightMod": "2d4",
+                "baseWeight": 35
+            },
+            "darkvision": 60,
+            "traitTags": [
+                "Uncommon Race",
+                "Spellcasting"
             ],
             "languageProficiencies": [
                 {
@@ -204,38 +320,16 @@
                     "type": "entries"
                 },
                 {
-                    "name": "Artificer's Lore",
+                    "name": "Mask of the Wild",
                     "entries": [
-                        "Whenever you make an Intelligence ({@skill History}) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+                        "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
                     ],
                     "type": "entries"
                 },
                 {
-                    "name": "Tinker",
+                    "name": "Speak with Small Beasts",
                     "entries": [
-                        "You have proficiency with artisan's tools ({@item tinker's tools|phb}). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
-                        "When you create a device, choose one of the following options:",
-                        {
-                            "type": "entries",
-                            "name": "Clockwork Toy",
-                            "entries": [
-                                "This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Fire Starter",
-                            "entries": [
-                                "The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Music Box",
-                            "entries": [
-                                "When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
-                            ]
-                        }
+                        "Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
                     ],
                     "type": "entries"
                 }
